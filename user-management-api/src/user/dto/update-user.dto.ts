@@ -4,7 +4,7 @@ import { IsString, IsEmail, IsOptional, IsMobilePhone, IsNumber } from 'class-va
 export class UpdateUserDto {
   @IsOptional()
   @IsNumber()
-  id?: number;  // Optional, used for identifying the user
+  id?: number;  
 
   @IsOptional()
   @IsString()
